@@ -21,7 +21,7 @@ const App = () => {
     <>
      <SearchBar functionSearchParent={handleSearch}/>
      {!loading && <ImageList images={images}/>}
-     {loading && (<>Dang load hinh anh</>)}
+     {loading && (<>Doi mot chut</>)}
      </>
   );
 };
